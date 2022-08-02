@@ -7,7 +7,7 @@ body{
 img{
     width: 100%;
 }
-img.flip:hover, img.flip:active {
+img.flip:hover, img.flip:focus, img.flip:active {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
